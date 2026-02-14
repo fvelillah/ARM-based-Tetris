@@ -1,0 +1,13 @@
+/* tetris_logic.c */
+#include "tetris.h"
+
+// Definition: Actual memory allocation and initialization
+Tetromino all_shapes[7] = {
+    {{{0, 1}, {1, 1}, {2, 1}, {3, 1}}, 1}, // I-shaped [cite: 99]
+    {{{0, 0}, {1, 0}, {0, 1}, {1, 1}}, 2}, // O-shaped [cite: 101]
+    {{{1, 0}, {0, 1}, {1, 1}, {2, 1}}, 3}, // T-shaped [cite: 103]
+    {{{0, 0}, {0, 1}, {1, 1}, {2, 1}}, 4}, // J-shaped [cite: 105]
+    {{{2, 0}, {0, 1}, {1, 1}, {2, 1}}, 5}, // L-shaped [cite: 107]
+    {{{1, 0}, {2, 0}, {0, 1}, {1, 1}}, 6}, // S-shaped [cite: 109]
+    {{{0, 0}, {1, 0}, {1, 1}, {2, 1}}, 7}  // Z-shaped [cite: 111]
+};

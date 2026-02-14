@@ -1,0 +1,22 @@
+#ifndef __TETRIS_H
+#define __TETRIS_H
+
+#include <stdint.h>
+
+// Tetromino
+typedef struct {
+	int x;
+	int y;
+} Point;
+
+typedef struct {
+    Point shape[4];     // The 4 blocks making up the tetromino
+    uint16_t color_id;  // The ID (1-7) to match grid colors
+} Tetromino;
+
+typedef struct {
+		Tetromino tetromino;
+		Point curr_pos;
+} Mov_Tetromino;
+
+#endif

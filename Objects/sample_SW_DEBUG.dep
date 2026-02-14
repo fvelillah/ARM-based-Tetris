@@ -1,0 +1,92 @@
+Dependencies for Project 'sample', Target 'SW_DEBUG': (DO NOT MODIFY !)
+CompilerVersion: 6240000::V6.24::ARMCLANG
+F (.\Source\startup_LPC17xx.s)(0x695D2E16)(--cpu Cortex-M3 --pd "__EVAL SETA 1" -g --diag_suppress=A1950W -I .\Source -I .\Source\CMSIS_core -I .\Source\GLCD -I .\Source\timer -I .\Source\button_EXINT -I .\Source\TouchPanel-IC:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include--pd "__UVISION_VERSION SETA 543"--pd "LPC175x_6x SETA 1"--list .\listings\startup_lpc17xx.lst--xref -o .\objects\startup_lpc17xx.o--depend .\objects\startup_lpc17xx.d)
+F (.\Source\sample.c)(0x69615CA2)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/sample.o -MMD)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+I (Source\GLCD\GLCD.h)(0x6961127E)
+I (Source\TouchPanel\TouchPanel.h)(0x695D2E17)
+I (Source\timer\timer.h)(0x695D2E17)
+I (Source\tetris\tetris.h)(0x6961141F)
+I (Source\button_EXINT\button.h)(0x696011F0)
+I (Source\RIT\RIT.h)(0x6937D506)
+F (.\Source\system_LPC17xx.c)(0x695D2E16)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/system_lpc17xx.o -MMD)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+F (.\Source\timer\IRQ_timer.c)(0x6961504B)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/irq_timer.o -MMD)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+I (Source\timer\timer.h)(0x695D2E17)
+I (Source\GLCD\GLCD.h)(0x6961127E)
+I (Source\TouchPanel\TouchPanel.h)(0x695D2E17)
+I (Source\tetris\tetris.h)(0x6961141F)
+F (.\Source\timer\lib_timer.c)(0x695D2E17)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/lib_timer.o -MMD)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+I (Source\timer\timer.h)(0x695D2E17)
+F (.\Source\timer\timer.h)(0x695D2E17)()
+F (.\Source\GLCD\AsciiLib.c)(0x695D2E16)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/asciilib.o -MMD)
+I (Source\GLCD\AsciiLib.h)(0x695D2E16)
+F (.\Source\GLCD\AsciiLib.h)(0x695D2E16)()
+F (.\Source\GLCD\GLCD.c)(0x695D2E16)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/glcd.o -MMD)
+I (Source\GLCD\GLCD.h)(0x6961127E)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+I (Source\GLCD\AsciiLib.h)(0x695D2E16)
+F (.\Source\GLCD\GLCD.h)(0x6961127E)()
+F (.\Source\GLCD\HzLib.c)(0x695D2E17)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/hzlib.o -MMD)
+I (Source\GLCD\HzLib.h)(0x695D2E17)
+F (.\Source\GLCD\HzLib.h)(0x695D2E17)()
+F (.\Source\TouchPanel\TouchPanel.c)(0x695D2E17)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O0 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/touchpanel.o -MMD)
+I (Source\GLCD\GLCD.h)(0x6961127E)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+I (Source\TouchPanel\TouchPanel.h)(0x695D2E17)
+F (.\Source\TouchPanel\TouchPanel.h)(0x695D2E17)()
+F (.\Source\CMSIS_core\cmsis_armclang.h)(0x695D2E16)()
+F (.\Source\CMSIS_core\cmsis_compiler.h)(0x695D2E16)()
+F (.\Source\CMSIS_core\cmsis_version.h)(0x695D2E16)()
+F (.\Source\CMSIS_core\core_cm3.h)(0x695D2E16)()
+F (.\Source\CMSIS_core\mpu_armv7.h)(0x695D2E16)()
+F (.\Source\tetris\lib_tetris.c)(0x6961520F)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/lib_tetris.o -MMD)
+I (Source\tetris\tetris.h)(0x6961141F)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+I (Source\GLCD\GLCD.h)(0x6961127E)
+I (Source\TouchPanel\TouchPanel.h)(0x695D2E17)
+I (Source\timer\timer.h)(0x695D2E17)
+I (Source\button_EXINT\button.h)(0x696011F0)
+I (Source\RIT\RIT.h)(0x6937D506)
+F (.\Source\tetris\tetris.h)(0x6961141F)()
+F (.\Source\button_EXINT\IRQ_button.c)(0x69614F85)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source/button_EXINT -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/irq_button.o -MMD)
+I (Source\button_EXINT\button.h)(0x696011F0)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\lpc17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+I (Source\tetris\tetris.h)(0x6961141F)
+I (Source\timer\timer.h)(0x695D2E17)
+F (.\Source\button_EXINT\lib_button.c)(0x69614D6E)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source/button_EXINT -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/lib_button.o -MMD)
+I (Source\button_EXINT\button.h)(0x696011F0)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\lpc17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+F (.\Source\button_EXINT\button.h)(0x696011F0)()
+F (.\Source\RIT\IRQ_RIT.c)(0x69615DBE)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source/RIT -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/irq_rit.o -MMD)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+I (Source\RIT\RIT.h)(0x6937D506)
+I (Source\tetris\tetris.h)(0x6961141F)
+F (.\Source\RIT\lib_RIT.c)(0x69614ACD)(-xc -std=c90 --target=arm-arm-none-eabi -mcpu=cortex-m3 -c-fno-rtti -funsigned-char -fshort-enums -fshort-wchar-D__EVAL -gdwarf-4 -O1 -fno-function-sections -I ./Source/RIT -I ./Source -I ./Source/CMSIS_core -I ./Source/GLCD -I ./Source/timer -I ./Source/button_EXINT -I ./Source/TouchPanel -I ./Source/tetris -I ./Source/RIT-IC:/Users/ferna/AppData/Local/Arm/Packs/Keil/LPC1700_DFP/2.7.2/Device/Include-D__UVISION_VERSION="543" -DLPC175x_6x -DSIMULATOR-o ./objects/lib_rit.o -MMD)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\LPC17xx.h)(0x68FF5D31)
+I (Source\CMSIS_core\core_cm3.h)(0x695D2E16)
+I (C:\Users\ferna\AppData\Local\Arm\Packs\Keil\LPC1700_DFP\2.7.2\Device\Include\system_LPC17xx.h)(0x68FF5D31)
+I (Source\RIT\RIT.h)(0x6937D506)
+F (.\Source\RIT\RIT.h)(0x6937D506)()
