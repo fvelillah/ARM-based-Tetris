@@ -7,8 +7,6 @@ Developed by: Fernando Velilla Hurtado
 
 Computer Architectures Extra-Point Project | Politecnico di Torino 
 
-A fully functional Tetris engine built from the ground up for the LandTiger NXP LPC1768 development board, where both low-level hardware constraints and high-level game logic needed to be satisfied.
-
 # 📺 Watch the Gameplay
 
 [![Watch the video](https://img.youtube.com/vi/yfAPtPvEgNg/0.jpg)](https://youtu.be/yfAPtPvEgNg)
