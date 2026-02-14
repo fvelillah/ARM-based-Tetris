@@ -1,11 +1,9 @@
-# ARM-based-Tetris
+# 🕹️ ARM-based Tetris
 Fully functional Tetris from scratch for the LandTiger NXP LPC1768 development board, where both low-level hardware constraints and high-level game logic needed to be satisfied.
 
 ![foto](https://github.com/user-attachments/assets/70cb26b7-cce3-41a5-b85c-369365e6edfa)
 
-# 🕹️ ARM-based Tetris
-
-Developed by: Fernando Velilla Hurtado (Matricola: 354393) 
+Developed by: Fernando Velilla Hurtado
 
 Computer Architectures Extra-Point Project | Politecnico di Torino 
 
