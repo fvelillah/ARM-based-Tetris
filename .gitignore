@@ -1,0 +1,9 @@
+Objects/
+Listings/
+*.uvgui.*
+*.uvguix.*
+*.o
+*.d
+*.crf
+*.axf
+*.htm
